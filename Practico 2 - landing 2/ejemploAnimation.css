@@ -1,0 +1,31 @@
+EJEMPLOS ANIMACIONES
+
+body {
+	/*animation: animacion 1s infinite;*/
+	animation: animacion 1s 5s;
+}
+
+@keyframes animacion {
+	/*from {
+		background: red;
+	}
+	to {
+		background: blue;
+	}*/
+
+	0% {
+		background: url();
+	}
+
+	50% {
+		background: url();
+	}
+
+	100% {
+		background: url();
+	}
+}
+
+.elemento {
+	transform: all 1s ease;
+}
