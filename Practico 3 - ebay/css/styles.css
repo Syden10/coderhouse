@@ -241,7 +241,7 @@ button.navbar-toggler.hidden-sm-up {
 }
 
 .btn.btn-secondary {
-    background: url(../avatar.png) no-repeat;
+    background: url(../img/avatar.png) no-repeat;
     margin-right: -30px;
     height: 52px;
     border: 0px;
@@ -252,7 +252,7 @@ button.navbar-toggler.hidden-sm-up {
 .btn.btn-secondary:active, 
 .btn.btn-secondary:focus,
 .btn.btn-secondary:hover {
-    background: url(../avatar.png) no-repeat !important;
+    background: url(../img/avatar.png) no-repeat !important;
     background-color: transparent;
     border: 0px !important;
 }
@@ -313,6 +313,7 @@ select#selColor {
 
     p.desc {    
         height: 20px;
+        margin-right: 60px;
     }
 
     .btn.btn-secondary {
