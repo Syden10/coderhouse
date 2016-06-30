@@ -15,260 +15,7 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
 
     <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,600,900,700' rel='stylesheet' type='text/css'>
-
-    <style type="text/css">
-
-    * {
-        /*font-family: 'Open Sans', sans-serif;*/
-        font-family: 'Titillium Web', sans-serif;
-        /*text-decoration: none;*/
-    }
-
-    body { 
-        padding-top: 80px;
-    }
-
-    html, body {
-        height: 100%;
-    }
-
-    .wrapper {
-        min-height: 95%;
-        position: relative;
-        margin: 0 auto;
-    }
-
-    .content {
-        padding-bottom: 50px;
-    }
-
-    .footer {
-        height: 50px;
-        width: 100%;
-        position: absolute;
-        bottom: 0;
-
-        background: #eee;
-        line-height: 50px;
-        /*padding: 10px 0px;*/
-        text-align: center;
-    }
-
-    /*.footer, .push {
-        height: 50px;
-    }*/
-
-    /*.footer, .push {
-        height: 50px;
-    }*/
-
-    h1 {
-        margin-bottom: 30px;
-    }
-
-    h3 {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        color: gray;
-        font-size: 20px;
-    }
-
-    p {
-        height: 100px;
-        color: gray;
-    }
-
-    .nav-link .fa {
-        display: block;
-        text-align: center;
-        font-size: 22px;
-    }
-
-    .thumbnail:hover p {
-        color: #1e1e1e;
-    }
-
-    .thumbnail:hover h3 {
-        color: #1e1e1e;
-    }
-
-    .navbar {
-        background: yellow;
-        border-bottom: 1px solid silver;
-        height: 60px;
-        margin-top: 0;
-    }
-
-    .ShopIcon {
-    	height: 32px;
-        width: 33px;
-        margin-top: 14px;
-        margin-right: 20px;
-    }
-
-    ul.nav.navbar-nav.pull-right {
-        /*line-height: 38px;*/
-        margin-top: -8px;
-        padding-bottom: 0px;
-    }
-
-    .nav.navbar-nav li.nav-item {
-        margin-left: 0px;
-    }
-
-    .navbar-nav .nav-link {
-        padding-bottom: 0px;
-        padding-top: 0px;
-    }
-
-    .active a {
-        color: #136530 !important;
-        border-color: #136530 !important;
-    }
-
-    .caption {
-        padding: 10px 10px 0px;
-    }
-        
-    .thumbnail img {
-        width: 100%;
-        display: block;
-        opacity: 0.8;
-    }
-
-    .thumbnail {
-        display: block;
-        padding: 4px;
-        margin-bottom: 20px;
-        line-height: 1.42857143;
-        background-color: #fff;
-        border: 2px solid #ddd;
-        border-radius: 4px;
-        -webkit-transition: border .2s ease-in-out;
-        -o-transition: border .2s ease-in-out;
-        transition: border .2s ease-in-out
-    }
-
-    .thumbnail:hover {
-        border-color: #136530;
-    }
-
-    .thumbnail:hover img {
-        opacity: 1;
-    }
-
-    .thumbnail:hover h3 {
-        color: #a1b11d;
-    }
-
-    .btn-primary {
-        width: 100%;
-        border: 1px solid #136530;
-        background: transparent;
-        color: #136530;
-        margin-bottom: 10px;
-    }
-
-    .btn-primary:hover {
-        background: #136530;
-        color: white;
-    }
-
-    .form-control {
-        height: 36px;
-        font-size: 16px;
-        font-weight: 300;
-        position: relative;
-        margin-top: 4px;
-        -webkit-box-shadow: none; 
-        box-shadow: none;
-        border: 1px solid lightgray;
-        width: 400px;
-        float: left;
-    }
-
-    .form-control:focus,
-    .form-control:active {
-        border-color: #a1b11d;
-        outline: 0;
-        -webkit-box-shadow: none;
-        box-shadow: none;
-    }
-
-    #botonsearch {
-        line-height: 40px;
-        float: right;
-        background-color: transparent;
-        color: #a1b11d;
-        font-size: 24px;
-        top: -43px;
-        right: 14px;
-        position: relative;
-    }
-
-    #botonsearch:hover {
-        cursor: pointer;
-    }
-
-    .clear {
-        clear: both;
-    }
-
-/*    .noResults {
-        display: none;
-        width: 100%;
-        text-align: center;
-    }*/
-
-    /*.footer {
-        background: #eee;
-        padding: 5px 5px;
-        text-align: center;
-
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-    }*/
-
-    button.navbar-toggler.hidden-sm-up.collapsed,
-    button.navbar-toggler.hidden-sm-up {
-        display: block;
-        margin: 0 auto;
-    }
-
-    .banner {
-		width: 100%;
-		margin-bottom: 30px;
-    }
-
-    .botonSearch {
-    	padding: 5px 10px;
-    	margin-top: 4px;
-    	background: #eee;
-    	border-radius: 3px;
-    	border: 1px solid lightgray;
-    }
-
-    .FilaSel {
-    	margin-bottom: 30px;
-    }
-
-    .avatar {
-    	margin-top: 5px;
-    }
-
-    @media (max-width: 414px) {
-        .navbar img {
-            margin-bottom: 30px;
-            margin-left: 50px;
-        }
-        li.nav-item {
-            margin-bottom: 10px;
-        }
-    }
-
-    </style>
-
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
@@ -281,8 +28,7 @@
         <nav class="navbar navbar-fixed-top bg-faded">
             <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
             &#9776;</button>
-            <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
-                <a class="navbar-brand" href="#"><img src="logo.png" class="logo" alt=""></a>
+            <a class="navbar-brand" href="#"><img src="logo.png" class="logo" alt=""></a>
 	        	<input type="search" placeholder="Buscar dato" class="form-control" />
 	        	<button class="botonSearch">
 	        		<i class="fa fa-search"></i>
@@ -292,10 +38,22 @@
                         <a class="nav-link" href="#"><img src="ic_shopping_cart.png" class="ShopIcon" alt=""></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><img src="avatar.png" class="avatar" alt=""></a>
+                        <!-- Single button -->
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Perfil</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Otra opción</a>
+                                <a class="dropdown-item" href="#">Opción 3</a>
+                                <a class="dropdown-item" href="#">Opción 4</a>
+                            </div>
+                        </div>
+                        <!-- <a class="nav-link" href="#"><img src="avatar.png" class="avatar" alt=""></a> -->
                     </li>
                 </ul>
-            </div>
+            
         </nav>
     </header>
 
@@ -346,13 +104,13 @@
             <a href="#">
                 <div class="col-sm-6 col-md-3 buscarMenu">
                     <div class="thumbnail">
-                        <img src="remera1.png" alt="hola">
+                        <img src="remera1.png" alt="hola" class="productImg">
                         <div class="caption">
-                            <h3 class="title">Biblioteca</h3>
-                            <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id pharetra sapien, at tristique leo.</p>
-                            <!-- <p> -->
-                                <!-- <a href="#" class="btn btn-primary" role="button">Button</a> --> 
-                            <!-- </p> -->
+                            <h3 class="title">Remera</h3>
+                            <h4 class="price">$200</h4>
+                            <div class="clear"></div>
+                            <p class="desc">Remera casual para hombre</p>
+                            <img src="corazon.png" alt="" class="corazon">
                         </div>
                     </div>
                 </div>
@@ -363,13 +121,13 @@
             <a href="#">
                 <div class="col-sm-6 col-md-3 buscarMenu">
                     <div class="thumbnail">
-                        <img src="remera2.png" alt="hola">
+                        <img src="remera2.png" alt="hola" class="productImg">
                         <div class="caption">
-                            <h3 class="title">Visualizador</h3>
-                            <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id pharetra sapien, at tristique leo. Aenean id pharetra sapien, at tristique leo.</p>
-                            <!-- <p> -->
-                                <!-- <a href="#" class="btn btn-primary" role="button">Button</a> --> 
-                            <!-- </p> -->
+                           <h3 class="title">Remera</h3>
+                            <h4 class="price">$200</h4>
+                            <div class="clear"></div>
+                            <p class="desc">Remera casual para hombre</p>
+                            <img src="corazon.png" alt="" class="corazon">
                         </div>
                     </div>
                 </div>
@@ -380,13 +138,13 @@
             <a href="#">
                 <div class="col-sm-6 col-md-3 buscarMenu">
                     <div class="thumbnail">
-                        <img src="remera1.png" alt="hola">
+                        <img src="remera1.png" alt="hola" class="productImg">
                         <div class="caption">
-                            <h3 class="title">CEREGAS</h3>
-                            <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            <!-- <p> -->
-                                <!-- <a href="#" class="btn btn-primary" role="button">Button</a> --> 
-                            <!-- </p> -->
+                            <h3 class="title">Remera</h3>
+                            <h4 class="price">$200</h4>
+                            <div class="clear"></div>
+                            <p class="desc">Remera casual para hombre</p>
+                            <img src="corazon.png" alt="" class="corazon">
                         </div>
                     </div>
                 </div>
@@ -397,13 +155,13 @@
             <a href="#">
                 <div class="col-sm-6 col-md-3 buscarMenu">
                     <div class="thumbnail">
-                        <img src="remera2.png" alt="hola">
+                        <img src="remera2.png" alt="hola" class="productImg">
                         <div class="caption">
-                            <h3 class="title">Catálogo de Imágenes</h3>
-                            <p class="desc">Lorem ipsum dolor sit amet.</p>
-                            <!-- <p> -->
-                                <!-- <a href="#" class="btn btn-primary" role="button">Button</a> --> 
-                            <!-- </p> -->
+                            <h3 class="title">Remera</h3>
+                            <h4 class="price">$200</h4>
+                            <div class="clear"></div>
+                            <p class="desc">Remera casual para hombre</p>
+                            <img src="corazon.png" alt="" class="corazon">
                         </div>
                     </div>
                 </div>
@@ -420,13 +178,13 @@
             <a href="#">
                 <div class="col-sm-6 col-md-3 buscarMenu">
                     <div class="thumbnail">
-                        <img src="remera1.png" alt="hola">
+                        <img src="remera1.png" alt="hola" class="productImg">
                         <div class="caption">
-                            <h3 class="title">Sitio DINAMA</h3>
-                            <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id pharetra sapien, at tristique leo.</p>
-                            <!-- <p> -->
-                                <!-- <a href="#" class="btn btn-primary" role="button">Button</a> --> 
-                            <!-- </p> -->
+                            <h3 class="title">Remera</h3>
+                            <h4 class="price">$200</h4>
+                            <div class="clear"></div>
+                            <p class="desc">Remera casual para hombre</p>
+                            <img src="corazon.png" alt="" class="corazon">
                         </div>
                     </div>
                 </div>
@@ -437,13 +195,13 @@
             <a href="#">
                 <div class="col-sm-6 col-md-3 buscarMenu">
                     <div class="thumbnail">
-                        <img src="remera2.png" alt="hola">
+                        <img src="remera2.png" alt="hola" class="productImg">
                         <div class="caption">
-                            <h3 class="title">Aporte Ciudadano</h3>
-                            <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id pharetra sapien, at tristique leo.</p>
-                            <!-- <p> -->
-                                <!-- <a href="#" class="btn btn-primary" role="button">Button</a> --> 
-                            <!-- </p> -->
+                            <h3 class="title">Remera</h3>
+                            <h4 class="price">$200</h4>
+                            <div class="clear"></div>
+                            <p class="desc">Remera casual para hombre</p>
+                            <img src="corazon.png" alt="" class="corazon">
                         </div>
                     </div>
                 </div>
@@ -454,13 +212,13 @@
             <a href="#">
                 <div class="col-sm-6 col-md-3 buscarMenu">
                     <div class="thumbnail">
-                        <img src="remera1.png" alt="hola">
+                        <img src="remera1.png" alt="hola" class="productImg">
                         <div class="caption">
-                            <h3 class="title">RLAU</h3>
-                            <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id pharetra sapien, at tristique leo.</p>
-                            <!-- <p> -->
-                                <!-- <a href="#" class="btn btn-primary" role="button">Button</a> --> 
-                            <!-- </p> -->
+                            <h3 class="title">Remera</h3>
+                            <h4 class="price">$200</h4>
+                            <div class="clear"></div>
+                            <p class="desc">Remera casual para hombre</p>
+                            <img src="corazon.png" alt="" class="corazon">
                         </div>
                     </div>
                 </div>
@@ -471,13 +229,13 @@
             <a href="#">
                 <div class="col-sm-6 col-md-3 buscarMenu">
                     <div class="thumbnail">
-                        <img src="remera2.png" alt="hola">
+                        <img src="remera2.png" alt="hola" class="productImg">
                         <div class="caption">
-                            <h3 class="title">Indicadores Ambientales</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id pharetra sapien, at tristique leo.</p>
-                            <!-- <p> -->
-                                <!-- <a href="#" class="btn btn-primary" role="button">Button</a> --> 
-                            <!-- </p> -->
+                           <h3 class="title">Remera</h3>
+                            <h4 class="price">$200</h4>
+                            <div class="clear"></div>
+                            <p class="desc">Remera casual para hombre</p>
+                            <img src="corazon.png" alt="" class="corazon">
                         </div>
                     </div>
                 </div>
@@ -496,7 +254,7 @@
     <!-- footer -->
     <footer class="footer">
         <div class="container">
-            <span class="text-muted">Footer</span>
+            <span class="text-muted">eBay</span>
         </div>
     </footer>
     <!-- /footer -->   
