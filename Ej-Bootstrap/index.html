@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ejercicio con Bootstrap</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,800,700,600' rel='stylesheet' type='text/css'> -->
+
+    <!-- Font-Awesome CSS CDN -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+
+    <style>
+    	.red {
+    		background-color: red;
+    	}
+
+    	.blue {
+    		background-color: blue;
+    		color: white;
+    	}
+
+    	.green {
+    		background-color: green;
+    	}
+    	form {
+    		margin-top: 50px;
+    	}
+
+    	.center-box {
+    		margin: 0 auto;
+    		display: block;
+    		width: 50%;
+    	}	
+    </style>
+</head>
+
+<body>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 red">
+				<div class="row">
+					<div class="col-md-4 col-xs-3 green">4 columnas c row</div>
+					<div class="col-md-4 col-xs-6 blue">4 columnas c row</div>
+					<div class="col-md-4 col-xs-3 red">4 columnas c row</div>
+				</div>
+			</div>			
+			<div class="col-md-8 blue">8 columnas c row</div>
+		</div>
+		<div class="col-md-4 green">4 sin row</div>
+		<div class="col-md-8 red">8 columnas sin row</div>
+	
+		<div class="center-box">
+			<form>
+			    <div class="form-group">
+			        <label for="exampleInputEmail1">Email address</label>
+			        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+			    </div>
+			    <div class="form-group">
+			        <label for="exampleInputPassword1">Password</label>
+			        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+			    </div>
+			    <div class="form-group">
+			        <label for="exampleInputFile">File input</label>
+			        <input type="file" id="exampleInputFile">
+			        <p class="help-block">Example block-level help text here.</p>
+			    </div>
+			    <div class="checkbox">
+			        <label>
+			            <input type="checkbox"> Check me out
+			        </label>
+			    </div>
+			    <button type="submit" class="btn btn-primary">Submit</button>
+			</form>
+		</div>
+
+		<form class="col-md-6 col-md-offset-3">
+		    <div class="form-group">
+		        <label for="exampleInputEmail1">Email address</label>
+		        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+		    </div>
+		    <div class="form-group">
+		        <label for="exampleInputPassword1">Password</label>
+		        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+		    </div>
+		
+		    <div class="checkbox">
+		        <label>
+		            <input type="checkbox"> Check me out
+		        </label>
+		    </div>
+		    <div class="text-center">
+		    	<button type="submit" class="btn btn-primary">Submit</button>
+		    </div>
+		</form>
+
+
+
+	</div>
+
+</body>
+
+</html>
